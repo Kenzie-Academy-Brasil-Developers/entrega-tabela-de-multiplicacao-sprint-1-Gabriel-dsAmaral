@@ -11,4 +11,4 @@ let table = function(x,y){
 table(10,10)
 
 console.log('digite table(valorX da table,valorY da table) no console para ver a tabela com o tamanho desejado aparecer ;)')
-console.log('ex: table(16,16)')
+console.log('ex: table(12,12)')
