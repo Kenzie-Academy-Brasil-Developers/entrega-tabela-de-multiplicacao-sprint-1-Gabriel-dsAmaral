@@ -1,4 +1,9 @@
-let tableMaker = function(x,y){
+let tableMaker = function(x){
+    let result = console.table(x)
+    return result
+}
+
+let arrayMaker = function(x,y){
     let result = []
     for(let i = 0; i <= x; i++){
         result.push([])
@@ -8,7 +13,7 @@ let tableMaker = function(x,y){
     }return console.table(result)
 }
 
-tableMaker(10,10)
+arrayMaker(10,10)
 
 console.log('digite tableMaker(valorX da table,valorY da table) no console para ver a tabela com o tamanho desejado aparecer ;)')
 console.log('ex: tableMaker(12,12)')
